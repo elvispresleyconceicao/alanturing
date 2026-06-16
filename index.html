@@ -82,15 +82,22 @@
             clear: both;
         }
 
+        /* CORREÇÃO DO FOOTER */
         footer {
-            background-color: #1E293B;
-            color: #94A3B8; /* Texto secundário mais suave */
-            text-align: center;
-            padding: 15px 0;
+            background-color: #6bb6e8;
+            color: white;
+            padding: 10px 0;
             position: fixed;
             bottom: 0;
+            left: 0;
             width: 100%;
-            border-top: 1px solid #334155;
+            box-sizing: border-box;
+        }
+
+        /* Força o parágrafo específico do footer a centralizar, ignorando a regra geral */
+        footer p {
+            text-align: center;
+            margin: 0;
             font-size: 0.9rem;
         }
     </style>
@@ -109,7 +116,7 @@
             <h2>Quem foi Alan Turing?</h2>
             <img src="images.jpg" alt="Retrato de Alan Turing" class="imagem-esquerda">
             <p>
-                Alan Turing foi um matemático e pioneiro da computação britânico, fundamental para o nascimento da inteligência artificial através de seu famoso <strong>Teste de Turing</strong>. Durante a Segunda Guerra Mundial, ele liderou a equipe que decifrou a máquina <strong>Enigma</strong>, salvando milhões de vidas ao interceptar comunicações nazistas. Ele também idealizou a <strong>Máquina de Turing</strong>, conceito teórico que serve como base para o funcionamento de todos os computadores modernos. Atualmente, ele é mundialmente reconhecido como o pai da ciência da computação e um herói de guerra.
+                Alan Turing foi um matemático e pioneiro da computação britânico, fundamental para o nascimento da inteligência artificial através de seu famoso <strong>Teste de Turing</strong>. Durante a Segunda Guerra Mundial, ele liderou a equipe que decifrou a máquina <strong>Enigma</strong>, salvando milhões de vidas ao interceptar communications nazistas. Ele também idealizou a <strong>Máquina de Turing</strong>, conceito teórico que serve como base para o funcionamento de todos os computadores modernos. Atualmente, ele é mundialmente reconhecido como o pai da ciência da computação e um herói de guerra.
             </p>
             <div class="limpar"></div>
         </div>
